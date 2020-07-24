@@ -14,12 +14,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NodaTime" Version="2.4.5" />
-    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="NodaTime" Version="3.0.0" />
+    <PackageReference Include="Dapper" Version="2.0.35" />
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0'">
-    <PackageReference Include="System.Data.SqlClient" Version="4.6.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
   </ItemGroup>
 
 </Project>
